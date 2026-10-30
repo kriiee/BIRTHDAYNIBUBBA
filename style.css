@@ -1,0 +1,72 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(135deg, #ffe6f0, #ffc6dc, #fff0f5);
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 40px 20px;
+    color: #66334d;
+    margin: 0;
+}
+
+h1 {
+    color: #e75480;
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+
+body > p {
+    font-size: 18px;
+}
+
+button {
+    background-color: #e75480;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 20px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #c93668;
+    transform: scale(1.05);
+}
+
+#message {
+    background-color: #fffafd;
+    max-width: 850px;
+    margin: 30px auto;
+    padding: 35px;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(180, 70, 120, 0.2);
+    text-align: left;
+    line-height: 1.8;
+}
+
+#message h2 {
+    color: #e75480;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#message p {
+    margin-bottom: 22px;
+    font-size: 16px;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    #message {
+        padding: 20px;
+    }
+}
